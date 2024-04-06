@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1005834457884",
+    "project_id": "capstone-13e1a",
+    "storage_bucket": "capstone-13e1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005834457884:android:e645b5f97bb80b805de0d9",
+        "android_client_info": {
+          "package_name": "com.example.commuterx"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEV6dGeXUVkQCDK7g7YPZC7U79FYKmaeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
