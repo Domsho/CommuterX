@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
-
-
-    <EditText
-        android:id="@+id/editTextUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:hint="Username"
-        android:inputType="text" />
+    android:layout_height="match_parent">
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -20,7 +9,7 @@
         android:layout_height="wrap_content"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:layout_marginBottom="16dp"/>
+        android:layout_margin="16dp"/>
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -28,21 +17,25 @@
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword"
-        android:layout_marginBottom="16dp"/>
+        android:layout_below="@id/editTextEmail"
+        android:layout_margin="16dp"/>
 
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Log In"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="16dp"/>
+        android:layout_below="@id/editTextPassword"
+        android:layout_margin="16dp"/>
 
-    <TextView
-        android:id="@+id/textViewSignup"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't have an account? Sign Up"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_below="@id/buttonLogin"
+        android:layout_margin="16dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="16dp"
+        android:text="Sign Up" />
 
-</LinearLayout>
+</RelativeLayout>
